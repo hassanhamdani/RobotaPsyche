@@ -1,4 +1,4 @@
-<h2> Project Improvements over the Homework </h2>
+<h2> Improve the Homework </h2>
 
 
 1 - Adding color and resizing Fiods 
@@ -52,10 +52,14 @@ Creating the customizable tab in the begginng of the code and removing some of t
 Code is finished and Project is Ready!
 
 
-Date - 08/09/2022
+DATE - 08/09/2022
 
 Adding final commenting to the code, adding code and pics to the readme
 
+
+DATE - 09/09/2002
+
+ALL DONE!
 
 
 
