@@ -67,7 +67,7 @@ ALL DONE!
 
 <h3>Problems</h3>
 
-Relatively less problems after building up on the homework assignment as I had a much clearer vision of what i wanted to do. There were issues with adding a new screen, the start screen with the legend. Also issues with how to make the code customizable, took some time to remove some of the hard coding and make sure everything is still running smoothly. Had a lot of fun, the best/most challenging part being actually thinking of how i can make my ecosystem more complex.
+Relatively less problems after building up on the homework assignment as I had a much clearer vision of what i wanted to do. There were issues with adding a new screen, the start screen with the legend. Also issues with how to make the code customizable, took some time to remove some of the hard coding and make sure everything is still running smoothly. Had a lot of fun, the best/most challenging part being actually thinking of how i can make my ecosystem more complex. Had a couple technical issues with adding code segments to the readme file as well, but got them fixed.
 
 <h3>Reflections</h3>
 
