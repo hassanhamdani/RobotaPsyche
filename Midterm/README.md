@@ -8,6 +8,8 @@
 This is a synthetic ecosystem project. The name Fiod is derived from the initial inspiration of this project being a synthtic representation of driod fish in a ponf. The ecosystem consists of two main objects, the foid (represented as triangles) and the consumables (represented as ellipses). There are two types of consumables, food (green) and poison (purple), and they effect the energy level of these foid. The foid lose energy when eating poison and gain energy when eating food, and there are two thresholds of their energy. If it drops below a certain threshold, the foid die (stop moving and turn red), and if it goes above a certain threshold, the foid reproduce (a new fish is spawned and energy is reset). Food and poison objects continously spawn across he duration of the program. Every fiod also has an oppurtunity to evolve after a certain time interval, where a random fiod is chosen and then randomly either evolves or not.
   
   Start Screen Image :
+  
+  
  <img width="400" alt="Screen Shot 2022-03-09 at 2 14 14 AM" src="https://user-images.githubusercontent.com/96621474/157334809-8df93935-ee48-444b-9927-da9fa095b95b.png">
 
   
@@ -66,7 +68,7 @@ Each Fiod has an option to choose between food and poison, and this is dictated 
   
  These Fiods can also reproduce as a means of surviving. As the foid eat more food, they grow in size and their color changes from grey -> orange -> yellow -> green. This is used to indicate how close Fiods are to reproducing. When a Fiod evolves, the threshold of how much energy must be consumed before reproduction drops, so not only do the evolved Fiods eat more food, but can also reproduce faster.
 
-   ```
+ ```
       //random mutation occurs randomly with time
     if(millis() >= 5000+timer3){  
 
@@ -82,12 +84,12 @@ Each Fiod has an option to choose between food and poison, and this is dictated 
       }
       timer3 = millis() 
     }
-   ```
+  ```
   
   
   <h5>Ending</h5>
   
- The ending of the program exists when it becomes reasonably apparent whether the ecosystem will survive or not. If all Fiods die, then the program shuts down and indicates that the system has failed. Alternatively, if the population grows to a certain threshold, the program indicates the the Fiods have survived and the system has succeeded. As various elements of the ecosystem is governed by random functions, as indicated above, slight changes to these functions can cause completely different endings for the Fiods.
+The ending of the program exists when it becomes reasonably apparent whether the ecosystem will survive or not. If all Fiods die, then the program shuts down and indicates that the system has failed. Alternatively, if the population grows to a certain threshold, the program indicates the the Fiods have survived and the system has succeeded. As various elements of the ecosystem is governed by random functions, as indicated above, slight changes to these functions can cause completely different endings for the Fiods.
  
  
  <img width="200" alt="Screen Shot 2022-03-09 at 2 16 23 AM" src="https://user-images.githubusercontent.com/96621474/157335086-cd65e178-85e3-4f85-ab56-b5b90cd3131f.png">
@@ -97,15 +99,6 @@ Each Fiod has an option to choose between food and poison, and this is dictated 
 
  Ecosystem Success:
  
-   ``` 
-     if(v.length>survivalPop)
-      {
-        fill(0,255,0);
-        rect(0,0,width,height);
-        fill(0);
-        textSize(60);
-        text("Ecosystem has Survived!", 50, height/2);
-      }
-   ```
+ 
  
  
