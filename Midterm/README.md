@@ -97,7 +97,7 @@ The ending of the program exists when it becomes reasonably apparent whether the
 
  Ecosystem Success:
  
- ``` 
+     ``` 
      if(v.length>survivalPop)
       {
         fill(0,255,0);
@@ -107,6 +107,3 @@ The ending of the program exists when it becomes reasonably apparent whether the
         text("Ecosystem has Survived!", 50, height/2);
       }
       ```
- 
- 
- 
