@@ -14,7 +14,8 @@ This is a synthetic ecosystem project. The name Fiod is derived from the initial
 
   
  This ecosystem project is meant to have editable parameters, so there are 5 main customizable domains that can be changed by the user.
- ```
+
+   ```
   //*******   CUSTOMIZE    *******
 
 //Customizing Parameters in the Simulation
@@ -25,7 +26,7 @@ let evolveRate = 0.1;
 let survivalPop = 20;
 
 // *****************************
-  ```
+```
   Population - Starting population size
   foodAmount - Starting food amount, with new food being added at set time increments
   poisonAmount - Starting poison amount, with new poison being added at set time increments
@@ -34,20 +35,20 @@ let survivalPop = 20;
   
   Code Segments for the use of these customizable variables will be provided in this file!
 
-   ```
+  ```
     //creating vehicles
   for(var i=0; i<population; i++){
     var x = random(width);
     var y = random(height);
     v[i] = new Vehicle(x,y);
   }
-    ```
+  ```
 
   <h5>Consumables</h5>
   
 Each Fiod has an option to choose between food and poison, and this is dictated by a random function. Initially, the foid are equally as probable to choose to go towards food or poison. These Fiods can actually evolve, and once transformed (turn white from grey), the random function is modified. The evolved foid will have a greater probability of choosing food over poision. This assists in the survivability of the Foids. Consumables spawn after set time intervals randomly across the ecosystem.
 
- ```
+     ```
     //creating food spots randomly
   for(var i=0; i<foodAmount; i++){
     var x = random(width-20);
@@ -62,13 +63,13 @@ Each Fiod has an option to choose between food and poison, and this is dictated 
     poison.push(createVector(x,y));
   }
   
-  ```
+     ```
   
   <h5>Reproduction</h5>
   
  These Fiods can also reproduce as a means of surviving. As the foid eat more food, they grow in size and their color changes from grey -> orange -> yellow -> green. This is used to indicate how close Fiods are to reproducing. When a Fiod evolves, the threshold of how much energy must be consumed before reproduction drops, so not only do the evolved Fiods eat more food, but can also reproduce faster.
 
- ```
+    ```
       //random mutation occurs randomly with time
     if(millis() >= 5000+timer3){  
 
@@ -84,7 +85,7 @@ Each Fiod has an option to choose between food and poison, and this is dictated 
       }
       timer3 = millis() 
     }
-  ```
+    ```
   
   
   <h5>Ending</h5>
@@ -98,7 +99,16 @@ The ending of the program exists when it becomes reasonably apparent whether the
 
 
  Ecosystem Success:
- 
+     ``` 
+     if(v.length>survivalPop)
+      {
+        fill(0,255,0);
+        rect(0,0,width,height);
+        fill(0);
+        textSize(60);
+        text("Ecosystem has Survived!", 50, height/2);
+      }
+      ```
  
  
  
