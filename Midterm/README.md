@@ -1,7 +1,8 @@
 <h2>  <t> Fiods  </h2>
 <h3> Ecosystem of Droid Fish </h3>
 
-  LINK: https://editor.p5js.org/mhh410/full/MAEPq3lNO
+  LINK (Default Mode Only) : https://editor.p5js.org/mhh410/full/MAEPq3lNO
+  EDITOR (Custom Mode) : https://editor.p5js.org/mhh410/sketches/MAEPq3lNO
   
   
   <h5> Setting </h5>
