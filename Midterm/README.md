@@ -6,7 +6,11 @@
   <h5> Setting </h5>
   
 This is a synthetic ecosystem project. The name Fiod is derived from the initial inspiration of this project being a synthtic representation of driod fish in a ponf. The ecosystem consists of two main objects, the foid (represented as triangles) and the consumables (represented as ellipses). There are two types of consumables, food (green) and poison (purple), and they effect the energy level of these foid. The foid lose energy when eating poison and gain energy when eating food, and there are two thresholds of their energy. If it drops below a certain threshold, the foid die (stop moving and turn red), and if it goes above a certain threshold, the foid reproduce (a new fish is spawned and energy is reset). Food and poison objects continously spawn across he duration of the program. Every fiod also has an oppurtunity to evolve after a certain time interval, where a random fiod is chosen and then randomly either evolves or not.
- 
+  
+  Start Screen Image :
+ <img width="750" alt="Screen Shot 2022-03-09 at 2 14 14 AM" src="https://user-images.githubusercontent.com/96621474/157334809-8df93935-ee48-444b-9927-da9fa095b95b.png">
+
+  
  This ecosystem project is meant to have editable parameters, so there are 5 main customizable domains that can be changed by the user.
  ```
   //*******   CUSTOMIZE    *******
@@ -23,8 +27,19 @@ let survivalPop = 20;
   Population - Starting population size
   foodAmount - Starting food amount, with new food being added at set time increments
   poisonAmount - Starting poison amount, with new poison being added at set time increments
-  evolveRate - The probability of a fiod evolving once chosed randomly at set time increments, the higher this number, the more fiods evolve (max = 1)
+  evolveRate - The probability of a fiod evolving once chosed randomly at set time increments, the higher this number, the more fiods evolve (max = 0.99)
   surivalPop - Describes when the program should end, set to end after 10 reproductions. Should always be higher than population.
+  
+  Code Segments for the use of these customizable variables will be provided in this file!
+
+   ```
+    //creating vehicles
+  for(var i=0; i<population; i++){
+    var x = random(width);
+    var y = random(height);
+    v[i] = new Vehicle(x,y);
+  }
+    ```
 
   <h5>Consumables</h5>
   
@@ -74,6 +89,12 @@ Each Fiod has an option to choose between food and poison, and this is dictated 
   
  The ending of the program exists when it becomes reasonably apparent whether the ecosystem will survive or not. If all Fiods die, then the program shuts down and indicates that the system has failed. Alternatively, if the population grows to a certain threshold, the program indicates the the Fiods have survived and the system has succeeded. As various elements of the ecosystem is governed by random functions, as indicated above, slight changes to these functions can cause completely different endings for the Fiods.
  
+ 
+ <img width="750" alt="Screen Shot 2022-03-09 at 2 16 23 AM" src="https://user-images.githubusercontent.com/96621474/157335086-cd65e178-85e3-4f85-ab56-b5b90cd3131f.png">
+ 
+ <img width="750" alt="Screen Shot 2022-03-09 at 2 17 24 AM" src="https://user-images.githubusercontent.com/96621474/157335209-cf4f460a-82d7-4f39-ad1e-f200d404756f.png">
+
+
  Ecosystem Success
    ``` 
      if(v.length>survivalPop)
