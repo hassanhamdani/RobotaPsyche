@@ -15,18 +15,15 @@ This is a synthetic ecosystem project. The name Fiod is derived from the initial
   
  This ecosystem project is meant to have editable parameters, so there are 5 main customizable domains that can be changed by the user.
 
-   ```
-  //*******   CUSTOMIZE    *******
-
+  
+  ```
 //Customizing Parameters in the Simulation
 let population = 10;
 let foodAmount = 20;
 let poisonAmount = 20;
 let evolveRate = 0.1;
 let survivalPop = 20;
-
-// *****************************
-```
+  ```
   Population - Starting population size
   foodAmount - Starting food amount, with new food being added at set time increments
   poisonAmount - Starting poison amount, with new poison being added at set time increments
@@ -62,8 +59,7 @@ Each Fiod has an option to choose between food and poison, and this is dictated 
     var y = random(height-20);
     poison.push(createVector(x,y));
   }
-  
-     ```
+   ```
   
   <h5>Reproduction</h5>
   
