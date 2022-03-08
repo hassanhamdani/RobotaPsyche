@@ -14,7 +14,7 @@ This is a synthetic ecosystem project. The name Fiod is derived from the initial
  <img width="400" alt="Screen Shot 2022-03-09 at 2 14 14 AM" src="https://user-images.githubusercontent.com/96621474/157334809-8df93935-ee48-444b-9927-da9fa095b95b.png">
 
   
- This ecosystem project is meant to have editable parameters, so there are 5 main customizable domains that can be changed by the user.
+ This ecosystem project is meant to have editable parameters, so there are 5 main customizable domains that can be changed by the user in the sketch.js file.
 
   
   ```
