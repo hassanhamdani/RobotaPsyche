@@ -66,7 +66,7 @@ Each Fiod has an option to choose between food and poison, and this is dictated 
  These Fiods can also reproduce as a means of surviving. As the foid eat more food, they grow in size and their color changes from grey -> orange -> yellow -> green. This is used to indicate how close Fiods are to reproducing. When a Fiod evolves, the threshold of how much energy must be consumed before reproduction drops, so not only do the evolved Fiods eat more food, but can also reproduce faster.
 
 
-```
+    ```
       //random mutation occurs randomly with time
     if(millis() >= 5000+timer3){  
 
