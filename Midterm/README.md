@@ -45,7 +45,7 @@ let survivalPop = 20;
   
 Each Fiod has an option to choose between food and poison, and this is dictated by a random function. Initially, the foid are equally as probable to choose to go towards food or poison. These Fiods can actually evolve, and once transformed (turn white from grey), the random function is modified. The evolved foid will have a greater probability of choosing food over poision. This assists in the survivability of the Foids. Consumables spawn after set time intervals randomly across the ecosystem.
 
-     ```
+```
     //creating food spots randomly
   for(var i=0; i<foodAmount; i++){
     var x = random(width-20);
@@ -59,7 +59,7 @@ Each Fiod has an option to choose between food and poison, and this is dictated 
     var y = random(height-20);
     poison.push(createVector(x,y));
   }
-   ```
+  ```
   
   <h5>Reproduction</h5>
   
