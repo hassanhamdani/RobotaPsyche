@@ -1,1 +1,48 @@
+I, Robot (24 pages)
+
+Introduction
+Susan Calvin,the chief robopsychologist in the U.S. Robots and Mechanical Men (the major manufacturer of robots), recalling her experience during an interview (9 chapters). The reporter is the narrator of the book
+A prediction of 21th century from 20th century
+The book is based on human interest out of Dr. Calvin
+Positronic: humanlike + AI
+Dr. Calvin didn’t think robot is just metal and iron
+Some oppositions: the labor unions naturally opposed robot competition for human jobs, religions have superstitious objections, but Dr. Calvin believed that robots were actually very human and people would think in this way if they have worked with them
+The first evidence is Robbie
+
+Chapter 1
+
+Robbie was a non-vocal robot created before specialization, therefore sold as a nursemaid -> still have caring,compassion
+A contrast to her mom
+The first appearance of a robot in Asimov's stories reveal quite a lot about how advanced they are. First, it shows how Robbie has a degree of consciousness and emotional intelligence, as he is emotionally in tune with Gloria's playfulness and is also aware of when she is being unfair to him.
+The first story, “Robbie,” takes place in 1996. The Weston family owns a nursemaid robot nicknamed Robbie, to whom their daughter Gloria is deeply attached. Gloria’s mother, however, pushes to get rid of Robbie. Mr. Weston agrees and returns Robbie to the factory. Gloria becomes inconsolable, and in an attempt to show her that Robbie isn’t human, they take her on a tour of the U.S. Robots and Mechanical Men factory. When they step into the room where robots are assembling other robots, they find Robbie there at work. Gloria steps in to greet her, and puts herself in danger. Robbie saves her life. Mrs. Weston, realizing this is a set-up, nonetheless agrees to bring Robbie back into the household.
+Mrs. Weston says, “It has no soul, and no one knows what it may be  thinking. A child just isn’t made to be guarded by a thing of metal.”
+Gloria screams, “He was a person just like you and me and he was my friend.”
+
+
+Eyeo2012 (39 mins)
+Casey Edwin Barker Reas is an American artist and Professor in the Department of Design Media Arts at UCLA whose conceptual, procedural and minimal artworks explore ideas through the contemporary lens of software. Reas is perhaps best known for having created, with Ben Fry (a MIT PhD candidate), the Processing programming language.
+https://chemoton.wordpress.com/tag/generative-art/
+
+Order and Chaos - Structured order and random chance operations
+Artificial Intelligence used to create art pieces that had a organic quality to it
+Casey built his own algorithms and then broke them down into concrete and simple geometric rules
+Forms - Shape     Behaviors - Motion      Element - combination of F and B
+Based on the starting parameters, we can make patterns emerge in totally different ways even if they have the same structure.
+Used a number of  Braitenberg machines simulation to draw the tissue artwork, found that when given enough time, order emerges in the artworks.
+Took pictures of a certain neighborhood around a building, added randomness to the images with certain concrete rules, like 90 deg turns only.
+Talks about artworks created through Randomness and Chance
+Talks about artworks with very precise Order and abstraction with human irregularities
+In his examples he shows Fractal Invaders, a program that runs on a 5x5 grid and a black or white pixel is chosen at random. When the images are flipped horizontally, we start to see patterns like skulls - symmetry added to randomness triggers our imagination (ordered chaos)
+Based on the starting parameters, we can make patterns emerge in totally different ways even if they have the same structure.
+10 print algorithm which just takes “/” and ”\” and randomly chooses between them but it still makes a very complex maze-like image and the randomness can be adjusted.
+ Slight noise/randomness is critical for accuracy of simulations
+
+
+
+
+Questions:
+
+Why do you think randomness is needed for accurate simulations?
+Can imagination be coded?
+
 
