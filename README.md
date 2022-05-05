@@ -1,6 +1,6 @@
 Links:
 
-[Course Summary] (25april/courseSummary.md)
+[Course Summary](25april/courseSummary.md)
 
 [Presentation Summary](25april/presentationSummary.md)
 
